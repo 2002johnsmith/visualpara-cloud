@@ -1,0 +1,46 @@
+/* HEADER PRINCIPAL */
+#main-header {
+    background: linear-gradient(135deg, #0d1117 0%, #1a1f24 100%);
+    padding: 48px 0;
+    border-bottom: 2px solid rgba(0, 123, 255, 0.35);
+    text-align: center;
+}
+
+/* CONTENEDOR */
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* TÍTULO */
+.header-title {
+    font-size: 3rem;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 4px 12px rgba(0,0,0,0.35);
+}
+
+/* SUBTÍTULO */
+.header-subtitle {
+    font-size: 1.2rem;
+    color: #9baecf;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 2.4rem;
+    }
+    
+    .header-subtitle {
+        font-size: 1rem;
+    }
+}

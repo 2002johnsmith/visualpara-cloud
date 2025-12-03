@@ -1,0 +1,58 @@
+.main-navbar {
+    background: rgba(10, 12, 18, 0.9);
+    backdrop-filter: blur(6px);
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(0, 123, 255, 0.35) !important;
+}
+
+/* BOTONES PRINCIPALES (LINKS ESTILO BOTÓN) */
+.nav-btn {
+    padding: 10px 22px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #1c2128, #11161d);
+    border: 1px solid rgba(88, 166, 255, 0.35);
+    color: #e4e9f0 !important;
+    font-weight: 600;
+    margin-right: 12px;
+    transition: 0.25s ease;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    text-decoration: none !important;   /* 🔥 QUITA EL SUBRAYADO */
+    letter-spacing: 0.4px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* EFECTO HOVER MÁS PROFESIONAL */
+.nav-btn:hover {
+    background: linear-gradient(145deg, #2b74ff, #1d4eb8);
+    border-color: #58a6ff;
+    color: white !important;
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0px 6px 16px rgba(88, 166, 255, 0.45);
+}
+
+/* Greeting */
+.user-greeting {
+    color: #cbd5e1;
+    font-size: 0.95rem;
+}
+
+/* Logout */
+.logout-btn {
+    border-color: #ff4d4d !important;
+    color: #ff4d4d !important;
+}
+
+.logout-btn:hover {
+    background: #ff4d4d !important;
+    color: white !important;
+}
+
+/* Mobile */
+.custom-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
